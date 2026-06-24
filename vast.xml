@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <VAST version="3.0">
   <Ad id="sample-ad">
     <InLine>
       <AdSystem>Test VAST</AdSystem>
       <AdTitle>Sample MP4 Ad</AdTitle>
 
-      <Impression><![CDATA[https://example.com/impression]]></Impression>
 
       <Creatives>
         <Creative id="creative-1">
