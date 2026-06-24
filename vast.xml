@@ -4,30 +4,21 @@
     <InLine>
       <AdSystem>Test VAST</AdSystem>
       <AdTitle>Sample MP4 Ad</AdTitle>
-
       <Impression><![CDATA[https://example.com/impression]]></Impression>
 
       <Creatives>
         <Creative id="creative-1">
           <Linear>
             <Duration>00:00:10</Duration>
-
             <MediaFiles>
-              <MediaFile
-                delivery="progressive"
-                type="video/mp4"
-                width="640"
-                height="360"
-                bitrate="500"
-                scalable="true"
-                maintainAspectRatio="true"><![CDATA[
-https://filesamples.com/samples/video/mp4/sample_640x360.mp4
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[
+https://media.w3.org/2010/05/sintel/trailer.mp4
               ]]></MediaFile>
             </MediaFiles>
-
           </Linear>
         </Creative>
       </Creatives>
+
     </InLine>
   </Ad>
 </VAST>
