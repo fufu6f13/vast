@@ -3,41 +3,9 @@
 
   <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll-1">
     <vmap:AdSource id="ad-source-1" allowMultipleAds="false" followRedirects="true">
-
-      <vmap:VASTAdData>
-        <VAST version="3.0">
-          <Ad id="sample-ad">
-            <InLine>
-              <AdSystem>Test VAST</AdSystem>
-              <AdTitle>Sample MP4 Ad</AdTitle>
-
-              <Impression><![CDATA[https://example.com/impression]]></Impression>
-
-              <Creatives>
-                <Creative id="creative-1">
-                  <Linear>
-                    <Duration>00:00:10</Duration>
-
-                    <MediaFiles>
-                      <MediaFile
-                        delivery="progressive"
-                        type="video/mp4"
-                        width="640"
-                        height="360"
-                        bitrate="500"
-                        scalable="true"
-                        maintainAspectRatio="true"><![CDATA[https://filesamples.com/samples/video/mp4/sample_640x360.mp4]]></MediaFile>
-                    </MediaFiles>
-
-                  </Linear>
-                </Creative>
-              </Creatives>
-
-            </InLine>
-          </Ad>
-        </VAST>
-      </vmap:VASTAdData>
-
+      <vmap:AdTagURI templateType="vast3"><![CDATA[
+https://fufu6f13.github.io/vast/vast.xml
+      ]]></vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
 
